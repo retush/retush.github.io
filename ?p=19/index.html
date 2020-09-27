@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-RU">
+
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>ретушь.net &raquo; Обесцвечивание. Как сделать черно-белое изображение в CMYK</title>
+
+	<meta name="generator" content="WordPress 2.3.3" /> <!-- leave this for stats please -->
+
+	<style type="text/css" media="screen">
+		@import url( http://retush.net/wp-content/themes/classic/style.css );
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://retush.net/?feed=rss2" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://retush.net/?feed=rss" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://retush.net/?feed=atom" />
+
+	<link rel="pingback" href="http://retush.net/xmlrpc.php" />
+		<link rel='archives' title='Апрель 2008' href='http://retush.net/?m=200804' />
+			<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://retush.net/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://retush.net/wp-includes/wlwmanifest.xml" /> </head>
+
+<body>
+<div id="rap">
+<!-- <h1 id="header"><a href="http://retush.net/">ретушь.net</a></h1>-->
+
+<h1 id="header"><a href="http://retush.net/"><img src="http://www.retush.net/logo.jpg"></a></h1>
+
+<div id="content">
+<!-- end header -->
+
+
+<h2>7 Апрель 2008</h2>
+<div class="post" id="post-19">
+	 <h3 class="storytitle"><a href="http://retush.net/?p=19" rel="bookmark">Обесцвечивание. Как сделать черно-белое изображение в CMYK</a></h3>
+	<div class="meta">написано в рубрике: <a href="http://retush.net/?cat=7" title="Просмотреть все записи в Технологии" rel="category">Технологии</a>, <a href="http://retush.net/?cat=1" title="Просмотреть все записи в Цвет" rel="category">Цвет</a> &#8212; Метки: <a href="http://retush.net/?tag=photoshop" rel="tag">photoshop</a>, <a href="http://retush.net/?tag=%d0%be%d0%b1%d0%b5%d1%81%d1%86%d0%b2%d0%b5%d1%87%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5" rel="tag">обесцвечивание</a>, <a href="http://retush.net/?tag=%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%b2%d1%8b%d0%b5-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b8" rel="tag">цветовые модели</a> &#8212;  Indy @ 13:21 </div>
+
+	<div class="storycontent">
+		<p>Черно-белые фотографии обладают особой привлекательностью и силой. Благодаря доступной в Adobe Photoshop функции &#8220;desaturate&#8221; каждый желающий может создать из цветной фотографии черно-белый &#8220;шедевр&#8221;. В RGB&#8230; Когда дело доходит до печати изображений в типографии и работы в режиме CMYK с черно-белыми изоображениями могут возникнуть большие проблемы. Следующий способ поможет исбежать подводных камней при обесцвечивании фотографий в CMYK.<span id="more-19"></span>Прежде всего, выясним что происходит при использовании функции &#8220;desaturate&#8221; в цветовой модели CMYK, и почему ее не истоит использовать в дальнейшем.</p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate1.jpg" alt="Функция desaturate в CMYK" /></p>
+<p>На примере  видно, что обесцвеченая Святая Мария окрашена голубым, пурпурным, желтым в равных пропорциях и в меньшей степени черным. При печати такого изображения вероятность того что итоговый вариант будет с желтым или розовым оттенком очень велика.Не поможет в получении черно-белого изображения и сведение трех основных цветов к 0. В итоговом изображении потеряется вся информация хранившаяся в этих цветовых каналах. </p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate2.jpg" alt="Обесцвечивание с помощью кривых" /><br />   <br />
+<h3><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal"> </span><span class="Apple-style-span" style="font-size: 19px">Работа с каналами</span></span></h3>
+<p><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal">Когда необходимо получить черно-белое изображение в CMYK без примесей пурпурного и желтого и одновременно не потерять информацию хранящуюся в этих цветовых каналах, можно воспользоваться следущей последовательностью действий:</p>
+<p></span></span></span><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal">1. Окрыть окно &#8220;Channels&#8221; (Каналы) Adobe Photoshop</span></span></span> </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate3.jpg" alt="Каналы в Adobe Photoshop" /></p>
+<p> В появившемся окне исходное изображение будет разложено по основным цветам CMYK.</p>
+<p>2. Выбрать составной канал CMYK</p>
+<p>3. Выделить исходное изображение и скопировать в буфер обмена.</p>
+<p>4. Выбрав каналы Cyan (Голубой) и Black (Черный) вставить в них изображение из буфера. Тем самым мы сохраним информацию с других каналов. </p>
+<p> 5. Теперь каналы Yelow (Желтый) и Magenta (Пурпурный) можно свести к 0 через кривые или просто закрасить белым цветом. Получившееся изображение будет содержать слишком много синего цвета. Это нормально. </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate4.jpg" alt="Промежуточный вариант с синим оттенком." /> </p>
+<p>6. Выбрать канал Сyan, открыть пункт меню Каналы (Image - Adjustments - Channels), захватить крайнюю правую точку прямой и уменьшить ее значение в 5 раз. </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate5.jpg" alt="Кривая цветов для канала Cyan" /></p>
+<p> Получившееся изображение будет содержать всю цветовую информацию в канале Black и частично в канале Cyan.</p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate6.jpg" alt="Готовое изображение" /></p>
+<p> Добавление синего сделает темные области более насыщенными. Без него напечатанное изображение может оказаться блеклым.</p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate_ok.jpg" alt="Обесцвеченное изображения с помощью каналов" /></p>
+<p>     <span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal"> </span></span></span>    </p>
+	</div>
+
+	<div class="feedback">
+					</div>
+
+</div>
+
+
+<h2 id="comments">6 комментариев	<a href="#postcomment" title="Оставить комментарий">&raquo;</a>
+</h2>
+
+<ol id="commentlist">
+
+	<li id="comment-6">
+	<p>Было бы интересно узнать поподробнее</p>
+	<p><cite>Комментарий от <a href='http://remontek.ru' rel='external nofollow'>Виктор</a> &#8212; 4 Июль 2008 @ <a href="#comment-6">19:45</a></cite> </p>
+	</li>
+
+	<li id="comment-7">
+	<p>Отличный ресурс! Чувствуется профессиональность <img src='http://retush.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /></p>
+	<p><cite>Комментарий от <a href='http://samsung-kino.ru' rel='external nofollow'>Евгений</a> &#8212; 8 Июль 2008 @ <a href="#comment-7">17:37</a></cite> </p>
+	</li>
+
+	<li id="comment-8">
+	<p>Интересно пишете, буду к вам захаживать.</p>
+	<p><cite>Комментарий от <a href='http://mysticizm.ru' rel='external nofollow'>Линда</a> &#8212; 9 Июль 2008 @ <a href="#comment-8">7:47</a></cite> </p>
+	</li>
+
+	<li id="comment-9">
+	<p>Зачет, сенкс автору</p>
+	<p><cite>Комментарий от <a href='http://rest-hungary.ru' rel='external nofollow'>Владимир</a> &#8212; 14 Июль 2008 @ <a href="#comment-9">18:16</a></cite> </p>
+	</li>
+
+	<li id="comment-12">
+	<p>Деньги - как навоз: если их не разбрасывать, от них будет мало толку.</p>
+	<p><cite>Комментарий от <a href='http://wifiburst.net/' rel='external nofollow'>Milan</a> &#8212; 21 Июль 2008 @ <a href="#comment-12">23:40</a></cite> </p>
+	</li>
+
+	<li id="comment-13">
+	<p>Автор, а вы случайно не из Москвы?</p>
+	<p><cite>Комментарий от <a href='http://seoskuns.blogspot.com' rel='external nofollow'>поГрУзЧИК</a> &#8212; 26 Июль 2008 @ <a href="#comment-13">11:29</a></cite> </p>
+	</li>
+
+
+</ol>
+
+
+<p><a href='http://retush.net/?feed=rss2&amp;p=19'><abbr title="Really Simple Syndication">RSS</abbr> лента комментариев к этой записи.</a>	<a href="http://retush.net/wp-trackback.php?p=19" rel="trackback">TrackBack <abbr title="Universal Resource Locator">URL</abbr></a>
+</p>
+
+<h2 id="postcomment">Оставить комментарий</h2>
+
+
+<form action="http://retush.net/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><small>Название (обязательно)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><small>Почта (не показывается) (обязательно)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Сайт</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> Вы можете использовать эти теги: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Отправить комментарий" />
+<input type="hidden" name="comment_post_ID" value="19" />
+</p>
+
+</form>
+
+
+
+
+
+<!-- begin footer -->
+</div>
+
+
+<!-- begin sidebar -->
+<div id="menu">
+
+<ul>
+	<li class="pagenav">Страницы:<ul><li class="page_item page-item-2"><a href="http://retush.net/?page_id=2" title="О сайте">О сайте</a></li>
+</ul></li>		<li class="categories">Рубрики:<ul>	<li class="cat-item cat-item-7"><a href="http://retush.net/?cat=7" title="Просмотреть все записи в рубрике Технологии">Технологии</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://retush.net/?cat=1" title="Просмотреть все записи в рубрике Цвет">Цвет</a>
+</li>
+</ul></li> <li id="search">
+   <label for="s">Поиск:</label>
+   <form id="searchform" method="get" action="http://retush.net">
+	<div>
+		<input type="text" name="s" id="s" size="15" /><br />
+		<input type="submit" value="Найти" />
+	</div>
+	</form>
+ </li>
+ <li id="archives">Архивы:	<ul>
+	 	<li><a href='http://retush.net/?m=200804' title='Апрель 2008'>Апрель 2008</a></li>
+	</ul>
+ </li>
+ <li id="meta">Управление:	<ul>
+		<li><a href="http://retush.net/wp-login.php?action=register">Регистрация</a></li>		<li><a href="http://retush.net/wp-login.php">Войти</a></li>
+		<li><a href="http://retush.net/?feed=rss2" title="Подписка на записи RSS"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
+		<li><a href="http://retush.net/?feed=comments-rss2" title="Последние комментарии ко всем записям по RSS"><abbr title="Really Simple Syndication">RSS</abbr> Комментариев</a></li>
+		<li><a href="http://validator.w3.org/check/referer" title="Эта страница удовлетворяет стандартам XHTML 1.0 Transitional">Валидация <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+		<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+		<li><a href="http://wordpress.org/" title="Работает на WordPress."><abbr title="WordPress">WP</abbr></a></li>
+			</ul>
+ </li>
+
+</ul>
+
+</div>
+<!-- end sidebar -->
+<p class="credit"><!--16 queries. 0.153 seconds. --> <cite>Работает на <a href='http://wordpress.org/' title='Работает на WordPress.'><strong>WordPress</strong></a></cite>  &nbsp;&nbsp;&nbsp; <cite><a href="http://indipoint.com/"><strong>Создание логотипа</strong></a> &mdash; Indipoint</cite></p>
+
+</div>
+
+</body>
+</html>

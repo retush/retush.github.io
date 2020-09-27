@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-RU">
+
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>ретушь.net &raquo; Форматы графических файлов</title>
+
+	<meta name="generator" content="WordPress 2.3.3" /> <!-- leave this for stats please -->
+
+	<style type="text/css" media="screen">
+		@import url( http://retush.net/wp-content/themes/classic/style.css );
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://retush.net/?feed=rss2" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://retush.net/?feed=rss" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://retush.net/?feed=atom" />
+
+	<link rel="pingback" href="http://retush.net/xmlrpc.php" />
+		<link rel='archives' title='Апрель 2008' href='http://retush.net/?m=200804' />
+			<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://retush.net/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://retush.net/wp-includes/wlwmanifest.xml" /> </head>
+
+<body>
+<div id="rap">
+<!-- <h1 id="header"><a href="http://retush.net/">ретушь.net</a></h1>-->
+
+<h1 id="header"><a href="http://retush.net/"><img src="http://www.retush.net/logo.jpg"></a></h1>
+
+<div id="content">
+<!-- end header -->
+
+
+<h2>5 Апрель 2008</h2>
+<div class="post" id="post-14">
+	 <h3 class="storytitle"><a href="http://retush.net/?p=14" rel="bookmark">Форматы графических файлов</a></h3>
+	<div class="meta">написано в рубрике: <a href="http://retush.net/?cat=7" title="Просмотреть все записи в Технологии" rel="category">Технологии</a> &#8212; Метки: <a href="http://retush.net/?tag=%d0%bf%d1%80%d0%b8%d0%bc%d0%b5%d1%80%d1%8b" rel="tag">примеры</a>, <a href="http://retush.net/?tag=%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d1%8b-%d1%84%d0%b0%d0%b9%d0%bb%d0%be%d0%b2" rel="tag">форматы файлов</a>, <a href="http://retush.net/?tag=%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%b2%d1%8b%d0%b5-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b8" rel="tag">цветовые модели</a> &#8212;  Indy @ 22:28 </div>
+
+	<div class="storycontent">
+		<p><a href="http://retush.net/wp-content/uploads/2008/04/jpeg.jpg" title="Зависимость качества изображения от коэффициента сжатия"></a><a href="http://retush.net/wp-content/uploads/2008/04/jpeg_count.jpg" title="Многократное сохранение JPEG"></a><a href="http://retush.net/wp-content/uploads/2008/04/gif_matte.jpg" title="Использование параметра matte в GIF"></a><a href="http://retush.net/wp-content/uploads/2008/04/png.jpg" title="Формат PNG"></a>Выбрав в графическом редакторе пункт меню &#8220;Сохранить как&#8221;, пользователю предоставляется дюжина возможных форматов для хранения изображения. О том, какие из них следует использовать в том или ином случае и как избежать подводных камней каждого формата, пойдет речь ниже. </p>
+<p><span id="more-14"></span></p>
+<p>Выбор формата файла связан, в первую очередь, с видом графической информации. Все двухмерные изображения по способу хранения можно разделить на растровые и векторные. Растровые описывают состояние каждой конкретной точки рисунка. Векторные — несут в себе информацию о геометрических закономерностях в изображении.</p>
+<p>К форматам файлов с растровой графикой относятся: jpeg, tiff, gif, png, eps, raw.</p>
+<h3>Формат JPEG</h3>
+<p>Самый распространенный среди рядовых пользователей формат изображений. Популярность обрел благодаря своему алгоритму сжатия, который позволяет с минимальными потерями качества сократить объем файла в несколько раз. Степень сжатия задается числом  от 1 до 100. Чем больше кэффициент сжатия тем лучше качество итогового изображения и больший размер файла.</p>
+<p><a href="http://retush.net/wp-content/uploads/2008/04/jpeg.jpg" title="Зависимость качества изображения от коэффициента сжатия"><img src="http://retush.net/wp-content/uploads/2008/04/jpeg.jpg" alt="Зависимость качества изображения от коэффициента сжатия" /></a></p>
+<p>При малом значении числа, на изображении проявляется блочная структура сжатия, теряются некоторые цвета и мелкие детали. Сжатие файла в формате jpeg проходит в несколько этапов. Вначале изображение переводится в цветовую систему YCbCr, с уменьшением каналов Cb и Сr, затем разбивается на блоки 8 на 8 пикселей, каждый из которых подвергается косинусному преобразованию и сжатию с помощью кодов Хаффмана.  Полученная матрица хранится вместе с изображением.</p>
+<p><a href="http://retush.net/wp-content/uploads/2008/04/jpeg_count.jpg" title="Многократное сохранение JPEG"><img src="http://retush.net/wp-content/uploads/2008/04/jpeg_count.jpg" alt="Многократное сохранение JPEG" /></a></p>
+<p>Формат jpeg не годится для хранения исходных макетов т.к. не поддерживает прозрачность, содержит лишь один базовый слой, и при повторном сохранении качество изображения ухудшается.    </p>
+<h3>Формат TIFF</h3>
+<p>Найболее гибкий формат хранения растровых изображений. Позволяет хранить графическую информацию без потерь, а также использовать один из семи алгоритмов сжатия, в том числе и JPEG. Это, а также большой выбор цветовых моделей, сделало формат TIFF стандартом не только в дизайне но и цифровой фотографии. В отличие от JPEG, формат TIFF поддерживает многослойные изображения, что делает его удобным для хранения исходных макетов, и использования в полиграфическом процессе.</p>
+<h3>Формат GIF</h3>
+<p>К особенностям формата gif относятся: ограниченная палитра, отсутствие сжатия, поддержка анимации и прозрачности. Палитра GIF может содержать до 256 цветов, что позволяет передать без видимых потерь изображение в одном оттенке. Одним из способов передачи всей палитры цветов в формате GIF является анимация с нулевой задержкой между кадрами. Через дополнительный цвет в палитре GIF можно добиться частичной прозрачности изображения без сглаживания.</p>
+<p><a href="http://retush.net/wp-content/uploads/2008/04/gif_matte.jpg" title="Использование параметра matte в GIF"><img src="http://retush.net/wp-content/uploads/2008/04/gif_matte.jpg" alt="Использование параметра matte в GIF" /></a></p>
+<p>Если цвет фона или близкий ему известен заранее, при сохранении файла следует сменить параметр matte на этот цвет. Это позволяет сгладить границы объекта и добиться эффекта полупрозрачности  на фоне с одним оттенком </p>
+<h3>Формат PNG</h3>
+<p>Относительно молодой формат,  поддерживаемый далеко не всеми графическими редакторами и интернет-браузерами. Отличительной  поддержкой альфа каналов, сжатием без потерь и неограниченным количеством цветов. Полупрозрачность позволяет использовать наложение объектов без заботы о цвете фона и цветовых переходах.</p>
+<p> <a href="http://retush.net/wp-content/uploads/2008/04/png.jpg" title="Формат PNG"><img src="http://retush.net/wp-content/uploads/2008/04/png.jpg" alt="Формат PNG" /></a></p>
+<p>После того как была решена проблема поддержки альфа-каналов в седьмой версии Internet Exlorer, PNG имеет все шансы стать стандартным форматом в веб-дизайне.</p>
+<h3>Формат EPS</h3>
+<p>Формат eps может хранить как растровые так и векторные элементы. На сегодняшний день, он является настолько универсальным и удобным что может вытеснить родные для графических редакторов форматы файлов. В случае если дизайнер не знает каким графически редактором будет открываться файл в будущем, формат eps подойдет как для хранения растрового изображения так и векторной графики. Поддержка цветовой модели CMYK делает этот формат незаменимым и для полиграфических процессов.</p>
+<h3>Формат RAW</h3>
+<p>В RAW содержится вся информация о световом сигнале в несжатом виде. В большинстве случаев,  это необработанные данные полученные с матрицы цифрового фотоаппарата. В формате RAW исходное изображение представлено в черно-белой палитре, а информация о цвете и других параметрах хранится в отдельной матрице. Это позволяет менять экспозицию, контраст, насыщенность и яркость без искажений преобразования.</p>
+	</div>
+
+	<div class="feedback">
+					</div>
+
+</div>
+
+
+<h2 id="comments">1 комментарий	<a href="#postcomment" title="Оставить комментарий">&raquo;</a>
+</h2>
+
+<ol id="commentlist">
+
+	<li id="comment-10">
+	<p>Отличная статья. Краткость явно чья-то сестра</p>
+	<p><cite>Комментарий от <a href='http://tsmdi.info' rel='external nofollow'>Люканг</a> &#8212; 17 Июль 2008 @ <a href="#comment-10">4:32</a></cite> </p>
+	</li>
+
+
+</ol>
+
+
+<p><a href='http://retush.net/?feed=rss2&amp;p=14'><abbr title="Really Simple Syndication">RSS</abbr> лента комментариев к этой записи.</a>	<a href="http://retush.net/wp-trackback.php?p=14" rel="trackback">TrackBack <abbr title="Universal Resource Locator">URL</abbr></a>
+</p>
+
+<h2 id="postcomment">Оставить комментарий</h2>
+
+
+<form action="http://retush.net/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><small>Название (обязательно)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><small>Почта (не показывается) (обязательно)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Сайт</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> Вы можете использовать эти теги: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Отправить комментарий" />
+<input type="hidden" name="comment_post_ID" value="14" />
+</p>
+
+</form>
+
+
+
+
+
+<!-- begin footer -->
+</div>
+
+
+<!-- begin sidebar -->
+<div id="menu">
+
+<ul>
+	<li class="pagenav">Страницы:<ul><li class="page_item page-item-2"><a href="http://retush.net/?page_id=2" title="О сайте">О сайте</a></li>
+</ul></li>		<li class="categories">Рубрики:<ul>	<li class="cat-item cat-item-7"><a href="http://retush.net/?cat=7" title="Просмотреть все записи в рубрике Технологии">Технологии</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://retush.net/?cat=1" title="Просмотреть все записи в рубрике Цвет">Цвет</a>
+</li>
+</ul></li> <li id="search">
+   <label for="s">Поиск:</label>
+   <form id="searchform" method="get" action="http://retush.net">
+	<div>
+		<input type="text" name="s" id="s" size="15" /><br />
+		<input type="submit" value="Найти" />
+	</div>
+	</form>
+ </li>
+ <li id="archives">Архивы:	<ul>
+	 	<li><a href='http://retush.net/?m=200804' title='Апрель 2008'>Апрель 2008</a></li>
+	</ul>
+ </li>
+ <li id="meta">Управление:	<ul>
+		<li><a href="http://retush.net/wp-login.php?action=register">Регистрация</a></li>		<li><a href="http://retush.net/wp-login.php">Войти</a></li>
+		<li><a href="http://retush.net/?feed=rss2" title="Подписка на записи RSS"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
+		<li><a href="http://retush.net/?feed=comments-rss2" title="Последние комментарии ко всем записям по RSS"><abbr title="Really Simple Syndication">RSS</abbr> Комментариев</a></li>
+		<li><a href="http://validator.w3.org/check/referer" title="Эта страница удовлетворяет стандартам XHTML 1.0 Transitional">Валидация <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+		<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+		<li><a href="http://wordpress.org/" title="Работает на WordPress."><abbr title="WordPress">WP</abbr></a></li>
+			</ul>
+ </li>
+
+</ul>
+
+</div>
+<!-- end sidebar -->
+<p class="credit"><!--16 queries. 0.183 seconds. --> <cite>Работает на <a href='http://wordpress.org/' title='Работает на WordPress.'><strong>WordPress</strong></a></cite>  &nbsp;&nbsp;&nbsp; <cite><a href="http://indipoint.com/"><strong>Создание логотипа</strong></a> &mdash; Indipoint</cite></p>
+
+</div>
+
+</body>
+</html>

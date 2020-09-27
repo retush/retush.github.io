@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ретушь.net &#187; обесцвечивание</title>
+	<atom:link href="http://retush.net/tag/desaturation/feed/" rel="self" type="application/rss+xml" />
+	<link>http://retush.net</link>
+	<description>In Photoshop We Trust</description>
+	<lastBuildDate>Wed, 21 Oct 2015 07:21:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.2.2</generator>
+	<item>
+		<title>Обесцвечивание. Как сделать черно-белое изображение в CMYK</title>
+		<link>http://retush.net/desaturation/</link>
+		<comments>http://retush.net/desaturation/#comments</comments>
+		<pubDate>Mon, 07 Apr 2008 11:21:07 +0000</pubDate>
+		<dc:creator><![CDATA[Zemlyansky]]></dc:creator>
+				<category><![CDATA[Технологии]]></category>
+		<category><![CDATA[Цвет]]></category>
+		<category><![CDATA[photoshop]]></category>
+		<category><![CDATA[обесцвечивание]]></category>
+		<category><![CDATA[цветовые модели]]></category>
+
+		<guid isPermaLink="false">http://retush.net/?p=19</guid>
+		<description><![CDATA[Черно-белые фотографии обладают особой привлекательностью и силой. Благодаря доступной в Adobe Photoshop функции &#8220;desaturate&#8221; каждый желающий может создать из цветной фотографии черно-белый &#8220;шедевр&#8221;. В RGB&#8230; Когда дело доходит до печати изображений в типографии и работы в режиме CMYK с черно-белыми изоображениями могут возникнуть большие проблемы. Следующий способ поможет исбежать подводных камней при обесцвечивании фотографий в [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Черно-белые фотографии обладают особой привлекательностью и силой. Благодаря доступной в Adobe Photoshop функции &#8220;desaturate&#8221; каждый желающий может создать из цветной фотографии черно-белый &#8220;шедевр&#8221;. В RGB&#8230; Когда дело доходит до печати изображений в типографии и работы в режиме CMYK с черно-белыми изоображениями могут возникнуть большие проблемы. Следующий способ поможет исбежать подводных камней при обесцвечивании фотографий в CMYK.<span id="more-19"></span>Прежде всего, выясним что происходит при использовании функции &#8220;desaturate&#8221; в цветовой модели CMYK, и почему ее не истоит использовать в дальнейшем.</p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate1.jpg" alt="Функция desaturate в CMYK" /></p>
+<p>На примере  видно, что обесцвеченая Святая Мария окрашена голубым, пурпурным, желтым в равных пропорциях и в меньшей степени черным. При печати такого изображения вероятность того что итоговый вариант будет с желтым или розовым оттенком очень велика.Не поможет в получении черно-белого изображения и сведение трех основных цветов к 0. В итоговом изображении потеряется вся информация хранившаяся в этих цветовых каналах. </p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate2.jpg" alt="Обесцвечивание с помощью кривых" /><br />   <br />
+<h3><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal"> </span><span class="Apple-style-span" style="font-size: 19px">Работа с каналами</span></span></h3>
+<p><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal">Когда необходимо получить черно-белое изображение в CMYK без примесей пурпурного и желтого и одновременно не потерять информацию хранящуюся в этих цветовых каналах, можно воспользоваться следущей последовательностью действий:</p>
+<p></span></span></span><span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal">1. Окрыть окно &#8220;Channels&#8221; (Каналы) Adobe Photoshop</span></span></span> </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate3.jpg" alt="Каналы в Adobe Photoshop" /></p>
+<p> В появившемся окне исходное изображение будет разложено по основным цветам CMYK.</p>
+<p>2. Выбрать составной канал CMYK</p>
+<p>3. Выделить исходное изображение и скопировать в буфер обмена.</p>
+<p>4. Выбрав каналы Cyan (Голубой) и Black (Черный) вставить в них изображение из буфера. Тем самым мы сохраним информацию с других каналов. </p>
+<p> 5. Теперь каналы Yelow (Желтый) и Magenta (Пурпурный) можно свести к 0 через кривые или просто закрасить белым цветом. Получившееся изображение будет содержать слишком много синего цвета. Это нормально. </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate4.jpg" alt="Промежуточный вариант с синим оттенком." /> </p>
+<p>6. Выбрать канал Сyan, открыть пункт меню Каналы (Image &#8211; Adjustments &#8211; Channels), захватить крайнюю правую точку прямой и уменьшить ее значение в 5 раз. </p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate5.jpg" alt="Кривая цветов для канала Cyan" /></p>
+<p> Получившееся изображение будет содержать всю цветовую информацию в канале Black и частично в канале Cyan.</p>
+<p><img src="http://retush.net/wp-content/uploads/2008/04/desaturate6.jpg" alt="Готовое изображение" /></p>
+<p> Добавление синего сделает темные области более насыщенными. Без него напечатанное изображение может оказаться блеклым.</p>
+<p> <img src="http://retush.net/wp-content/uploads/2008/04/desaturate_ok.jpg" alt="Обесцвеченное изображения с помощью каналов" /></p>
+<p>     <span class="Apple-style-span" style="font-size: 24px"><span class="Apple-style-span" style="font-size: 19px"><span class="Apple-style-span" style="font-size: 16px; font-weight: normal"> </span></span></span>    </p>
+]]></content:encoded>
+			<wfw:commentRss>http://retush.net/desaturation/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
